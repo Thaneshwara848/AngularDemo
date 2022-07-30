@@ -1,0 +1,485 @@
+fULL Stack 
+
+Full Stack 											
+
+
+FE
+	HTML 
+	CSS--- Bootstarp 
+	JS							Angualr.js
+
+
+
+
+
+VS code 
+
+HTML:
+	tags:	
+		<h1> <p> <br>,<body > <head> <title>
+		br :break
+		hr :horizantal 
+		p : paragraph 
+		heading tages: 
+			h1,h2,h3,h4,h5,h6
+				h100 : will not concidor as tag . its just a text
+				a : anchor tag: 
+						which is used tpo make clicakbel 
+				
+				table : 
+
+					<table>
+					tr : table row 
+					td :table data 
+					th : table heading 
+						colspan
+						rowspan
+						cellpadding
+						cellspacing
+				
+
+
+				List : 
+					2 types:
+							orderd List  : ol  
+							unorderd List  : ul 
+
+					number :1 
+					ROman : I / i
+					Alph: A / a 
+
+						UnOrderd LIST :
+
+
+					Ul :
+						li 
+
+					type : 
+						circle 
+						disc
+						square 
+
+		Audio / vedio 
+		link 
+		img 
+		symbols
+		emojies 
+		
+		Google Map 
+		
+
+		Form tags : 
+					
+		Html 5:
+				range
+				date
+				file
+				numbewr
+				email
+
+		Sub 
+		Sup
+		b 
+		mark
+		kbd
+		
+				
+
+
+		UI / UX 
+		User Interfafec 
+		UX : USer Expeiince 
+		
+
+		Css
+
+				3 types :
+						1) inline Style Sheet 
+						2)Embaded / Internal Style sheet 
+							<style > : where? in head 
+						3) Externale style sheet 
+								link 
+									href 
+									rel 
+
+							
+
+
+				Selectors :
+					id  : select using #
+					class  : select using . 
+					tag  : use tags name 
+					universl selectors  : * 
+					grouping  : h1, h4 , P , 
+ 
+			
+			Color:
+					color name :red , blue , green ,
+					RGB : red , green , blue 
+					Hex : 
+
+
+				background 
+					image 
+					color
+					repet
+					attachment
+					postion
+
+				Box Model :
+						Padding
+						margin
+						Border
+
+				Opacity :
+				Position
+				
+					
+
+
+
+
+
+
+
+	FUll Stack 
+
+	Front end 
+		HTML : What to display in the browser 
+		Css : how to display in the browserr: look and Feel--------------- > bootstracp : 
+		java script : action , dynimic
+
+		Js
+			Angualr .js
+		 
+	MiddleWare
+	backend 
+
+
+
+
+
+
+
+
+
+
+
+
+js :
+		angurl 
+		reactjs 
+		node js 
+		express.js 
+		vennall js 
+		backboon js 
+		vew js 
+		etc......!
+
+
+
+
+
+
+
+
+
+
+
+		java 								JAVA Script 
+
+1) 	prog 	c,c++,java 								1) Scriptinh lang 
+2) soucr code 								2)no complier ,or no need of compiling , directly we can run 
+	comple
+	run 								
+3)	bit slow then conpare to js 					3) fast 
+4) only server side 							4) clineet side ,and Server :
+5)strict prog 								5) not much strcit
+
+
+
+
+
+Using JS : 
+
+	Cal : 
+			
+var , let , const 
+
+
+
+
+Functions 
+Events  :
+	onclick 
+	on dblclick
+	Monmouserover 
+	OnMouse Out 
+	onFOcus 
+	onBlr
+	onchange 
+	onSumbmit
+	onLoad
+	onDrag
+	onKeypress
+	onkeyDown 
+	
+form validation 
+	name : 
+
+		,must be min 3 letter 
+				if name is less the 2  we shodnt accespt 
+		name should emppty 
+		only char bit any numbers 
+		
+
+Login:
+	
+
+	.html
+	.css
+	.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FE :
+	HTML
+	CSS :BS
+	JS :				
+						Anagulr .JS  =====> JAVASCRIPT 	
+						Angualr 2 +  ==========> (JS )= TypeScript 
+						Angaulr 13 : 
+						
+		ID 
+		name 
+		Age 
+		Slary 
+		Desig
+
+
+
+MW
+
+			java 
+			Servelet  : SpringMVC  : SpringBoot 
+			JDBC :Hibernate : JPA 
+
+			Tomcat 
+
+
+BE :
+
+		Database 
+	
+
+
+
+
+
+
+
+
+
+
+FE
+BE
+MD
+
+	GIT : 
+
+Agile :
+
+project : 
+	Vision 
+
+	teams : 
+	
+
+
+	10 membes: 
+		user storeies : task 
+			scrum master 
+
+	Scarum planning: 
+		Dev :
+
+	Spring Review 
+	Relase: 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Angaulr 13 : 
+		install node.js 
+		and we have to install angualr package 
+			npm  : node package manager 
+			
+			npm install -g @angualr/cli 
+			npm --version 
+			ng --version
+
+			
+
+
+
+VS Code
+Node.js 
+
+
+NOde.js 	
+	inmstall angualr pakage 
+	
+	ng --version 
+	npm --version 
+
+	
+	How to create proejct 
+
+	ng new Demo 
+	cd Demo	
+	ng Serve 
+Open in browser : 	http://localhost:4200/
+		
+	
+in 2 minuts : plz install 
+	
+
+
+
+	Angualr : 
+		Live Reloding : 
+			
+		component oriented 
+			ng g c login 
+
+					4 files 
+						.html : what to display 
+						.css : how to display 
+						.ts : when to display 
+						spec.ts : wether it ios corrrect or not 
+
+
+
+
+
+	loan	COmponent : 
+		
+		edu
+		car
+		home 	
+		Per
+				.html 
+				.css
+				.ts
+				.spct
+
+
+	
+		bank 
+			loan:
+				vec
+				home
+				edu
+				per
+
+			Deposit:
+				RD 
+				FD
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What is componet :
+		
+	set 4 file 
+		html 
+		css
+		ts
+		Spec.ts
+
+
+
+	siblngs 
+
+	child 
+		ng g c c_n 
+		ng generate component Demo
+
+
+				
+
+
+							Angular :
+									COmponent 
+									Routing : 
+
+									DataBinding :
+										2 types:
+											one way
+													event , property , intrpolation
+											two 
+												both with event and property 
+									PIpe 	
+											pure 
+											impure 
+											
+									Services
+											
+									Forms:
+											trmplte Drivermn 
+											Reactive Driven Form
+									HTTPS
+									
+											WE are going to integrate front and bacend 
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
