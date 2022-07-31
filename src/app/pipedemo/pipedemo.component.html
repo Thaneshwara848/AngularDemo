@@ -1,0 +1,29 @@
+<div class="abc">
+    <h1>PIPE Demo </h1>
+    {{name |uppercase}} <br>
+    {{name |lowercase}}
+    <br>
+    
+    {{todaydate | date }}<br>
+    {{todaydate | date :'dd/MM/yyyy'}}<br>
+    {{todaydate | date :'MM/dd/yyyy'}}<br>
+    {{todaydate | date :'MM/dd/yy'}}<br>
+<br>
+    {{amount}}<br>
+    {{amount | currency}}<br>
+    {{amount | currency:'INR'}}<br>
+    {{amount | currency:'USD'}}<br>
+    {{amount | currency:'JPY'}}<br>
+    {{amount | currency:'EUR'}}<br>
+    {{obj}}<br>
+    {{obj | json}}<br>
+    {{name | slice: 2:10 }} <br>
+
+    <h1> Costum PIPE </h1>
+    {{5 | sqr }}<br>
+    {{10 | sqr }}<br>
+    {{15 | sqr }}<br>
+    {{25 |sqr }}<br>
+
+    {{5 | cube}}
+</div>

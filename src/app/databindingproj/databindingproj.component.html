@@ -1,0 +1,33 @@
+<div class="abc">
+   <marquee > <h1>Hi {{name}} Data Binding  Demo </h1></marquee>
+
+    Principle : <input type="text" name="principle" #principle ><br>
+    Time :<input type="text" name="time" #time><br>
+
+    Type od Lone :
+     <select (change)="changeWebsite($event)">
+            <option value="edu">Education</option>
+            <option value="personal">Personal</option>
+            <option value="home"> HOME </option>
+            <option value="car"> CAR </option>
+    </select> 
+    <br>
+    Intrest:<input type="text" name="intrest" 
+    value={{intrest}} #intrest1 disabled><br>
+
+    EMI : <input type="text" name="emi" value={{emi}}><br>
+    Total :<input type="text" name="total" value={{total}}><br>
+
+
+    <input type="button" value="CACULATE"  
+    (click)="caculate(principle.value,time.value,intrest1.value)">
+</div>>
+
+<div>
+    <input type="text" [(ngModel)]="mydata" >
+    <br>
+    {{mydata}}
+
+</div>
+
+

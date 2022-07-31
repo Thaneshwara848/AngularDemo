@@ -10,6 +10,15 @@ import { ContactUSComponent } from './contact-us/contact-us.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { EntrypageComponent } from './entrypage/entrypage.component';
+import { DatabindingComponent } from './databinding/databinding.component';
+import { DatabindingprojComponent } from './databindingproj/databindingproj.component';
+import { FormsModule } from '@angular/forms';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { SqrPipe } from './sqr.pipe';
+import { CubePipe } from './cube.pipe';
+import { AComponent } from './a/a.component';
+import { BComponent } from './b/b.component';
+import { CComponent } from './c/c.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +29,20 @@ import { EntrypageComponent } from './entrypage/entrypage.component';
     ContactUSComponent,
     LoginComponent,
     RegisterComponent,
-    EntrypageComponent
+    EntrypageComponent,
+    DatabindingComponent,
+    DatabindingprojComponent,
+    PipedemoComponent,
+    SqrPipe,
+    CubePipe,
+    AComponent,
+    BComponent,
+    CComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
