@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ABC1Component } from './abc1/abc1.component';
+import { ABC2Component } from './abc2/abc2.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { EntrypageComponent } from './entrypage/entrypage.component';
 import { LoginComponent } from './login/login.component';
@@ -18,6 +20,14 @@ const routes: Routes = [
     path:'login',
     component:LoginComponent
   },
+  {
+    path:'abc1',
+    component:ABC1Component
+  },
+  {
+    path:"abc2",
+    component:ABC2Component
+  }
  
 ];
 

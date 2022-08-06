@@ -22,6 +22,8 @@ import { CComponent } from './c/c.component';
 import { XComponent } from './x/x.component';
 import { YComponent } from './y/y.component';
 import { DirictivedemoComponent } from './dirictivedemo/dirictivedemo.component';
+import { ABC1Component } from './abc1/abc1.component';
+import { ABC2Component } from './abc2/abc2.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { DirictivedemoComponent } from './dirictivedemo/dirictivedemo.component'
     CComponent,
     XComponent,
     YComponent,
-    DirictivedemoComponent
+    DirictivedemoComponent,
+    ABC1Component,
+    ABC2Component
   ],
   imports: [
     BrowserModule,
