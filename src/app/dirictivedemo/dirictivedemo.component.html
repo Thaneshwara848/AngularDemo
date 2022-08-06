@@ -1,0 +1,50 @@
+<h3>Strutural Directiove Demo</h3>
+
+<div *ngIf="xyz">
+    <h1> Hi Weelcome to Banglore </h1>
+</div>
+<div >
+    <h1> Hi Weelcome to Delhi </h1>
+</div>
+
+<hr>
+Name : <input type="text" name="fruitname" #fruitname>
+
+<input type="submit" value="Add Friuit" (click)="addfriut(fruitname.value)">
+
+<ul *ngFor="let myfruit of fruit">
+    <!-- <li>{{myfruit}}</li> -->
+    <li *ngIf="myfruit=='Apple'">{{myfruit}}</li>
+</ul>
+
+<div [ngSwitch]="option">
+    <p *ngSwitchCase="100"> 100</p>
+    <p *ngSwitchCase="200" >200</p>
+    <p *ngSwitchCase="300">300</p>
+    <p *ngSwitchCase="400">400</p>
+    <p *ngSwitchDefault>500</p>
+</div>
+<h4> Attrubute Directive </h4>
+
+
+<div [ngClass]="{border:true,background:true}">
+    <h3>Hi Simple Demo </h3>
+    <h3>Hi Simple Demo </h3>
+    <h3>Hi Somple Demo </h3>
+
+</div>
+
+
+<div [ngClass]="{border:false,background:true}">
+    <h3>Hi Simple Demo </h3>
+    <h3>Hi Simple Demo </h3>
+    <h3>Hi Somple Demo </h3>
+
+</div>
+
+<div [ngStyle]="{'background-color':'clr'}">
+    <h1>HI </h1>
+</div>
+    
+
+

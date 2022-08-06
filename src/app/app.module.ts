@@ -19,6 +19,9 @@ import { CubePipe } from './cube.pipe';
 import { AComponent } from './a/a.component';
 import { BComponent } from './b/b.component';
 import { CComponent } from './c/c.component';
+import { XComponent } from './x/x.component';
+import { YComponent } from './y/y.component';
+import { DirictivedemoComponent } from './dirictivedemo/dirictivedemo.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { CComponent } from './c/c.component';
     CubePipe,
     AComponent,
     BComponent,
-    CComponent
+    CComponent,
+    XComponent,
+    YComponent,
+    DirictivedemoComponent
   ],
   imports: [
     BrowserModule,
